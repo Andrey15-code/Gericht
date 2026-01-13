@@ -1,0 +1,260 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* header to gericht */
+
+header {
+  background-color: #0c0b08;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.container-header {
+  width: 1680px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.gericht {
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: auto 0 auto 0;
+}
+
+.gericht-list {
+  display: flex;
+  justify-content: space-between;
+  width: 409px;
+  align-items: center;
+  margin: 46px 271px 47px 437px;
+}
+
+.gericht-list-item {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.gericht-log {
+  font-family: "Open Sans";
+  width: 364px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gericht-log-register {
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 6px;
+}
+
+.gericht-log-in {
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.gericht-log-book {
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 171px; */
+  letter-spacing: 1px;
+  padding: 14.5px 0 14.5px 0;
+}
+
+.gericht-log-img {
+  width: 1px;
+  height: 57px;
+}
+
+/* main to gericht */
+
+.hero {
+  background-color: #0c0b08;
+}
+
+.hero-box {
+  display: flex;
+  margin: 48px 0 147px 0;
+}
+
+.main-hero-block-text {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 453px;
+  flex-direction: column;
+  margin: 0 180px 0 0;
+}
+
+.main-hero-block {
+  display: flex;
+  align-items: center;
+}
+
+.main-hero-block-text1 {
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.main-hero-block-text2 {
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #dcca87;
+  margin: 0 0 32px 0;
+}
+
+.main-hero-block-text-p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  margin: 0 0 32px 0;
+}
+
+.main-hero-block-button {
+  width: 157px;
+  height: 44px;
+  border: none;
+  background-color: #dcca87;
+  color: #0c0b08;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.main-hero-block-text > .block-img {
+  margin: 8px 0 8px 0;
+  width: 40px;
+  height: 9px;
+}
+
+.main-hero-block-img {
+  width: 667px;
+  height: 736px;
+}
+
+.hero > .container {
+  max-width: 1680px;
+}
+
+.main-hero-box2-text1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: #f5efdb;
+  letter-spacing: 2px;
+  padding-left: 14px;
+}
+
+.main-hero-box2-span {
+  padding-right: 14px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: #f5efdb;
+  letter-spacing: 2px;
+}
+
+.main-hero-box2 {
+  margin: 64px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main-hero-block1 {
+  align-items: center;
+  justify-items: center;
+}
+
+.main-hero-box2-line {
+  width: 16px;
+  height: 1px;
+  border: none;
+  background-color: #dcca87;
+  margin: 0;
+}
+
+.scroll {
+  width: 61px;
+  height: 113px;
+  margin: 715px 0 0 129px;
+}
+
+.main-hero-box-text {
+  display: flex;
+
+
+  width: 36px;
+  height: 30px;
+  gap: 40px;
+}
+
+.hero-box-hashtag {
+  display: flex;
+  gap: 40px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+}
+
+.hashtag {
+  transform: rotate(-90deg);
+
+}
+
+.main-hero-box {
+  display: flex;
+}
+
+.knife {
+  width: 50px;
+}
