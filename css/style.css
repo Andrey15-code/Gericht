@@ -100,6 +100,8 @@ header {
 
 /* main to gericht */
 
+/* hero block */
+
 .hero {
   background-color: #0c0b08;
 }
@@ -107,6 +109,8 @@ header {
 .hero-box {
   display: flex;
   margin: 48px 0 147px 0;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .main-hero-block-text {
@@ -227,8 +231,6 @@ header {
 
 .main-hero-box-text {
   display: flex;
-
-
   width: 36px;
   height: 30px;
   gap: 40px;
@@ -236,25 +238,242 @@ header {
 
 .hero-box-hashtag {
   display: flex;
-  gap: 40px;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 18px;
   line-height: 175%;
   letter-spacing: 2px;
   color: #ffffff;
-
+  align-items: center;
+  justify-content: center;
 }
 
 .hashtag {
   transform: rotate(-90deg);
+}
 
+.hashtag-box {
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  padding-right: 158px;
+  width: 32px;
+  height: 161px;
 }
 
 .main-hero-box {
   display: flex;
 }
 
-.knife {
-  width: 50px;
+/* about-us block */
+
+.about-us-section2 {
+  display: flex;
+  background-color: #0c0b08;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 0 136px 0;
+  align-items: center;
+  max-width: 100%;
+}
+
+.about-us {
+  max-width: 523px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  align-items: end;
+}
+
+.about-us-h2 {
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.about-us-p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  letter-spacing: 1px;
+  padding: 32px 0 32px 0;
+}
+
+.block-img {
+  width: 40px;
+  height: 9px;
+}
+
+.about-us > .block-img {
+  transform: rotate(180deg);
+  padding-bottom: 8px;
+}
+
+.about-us-button {
+  width: 141px;
+  height: 44px;
+  border: none;
+  background-color: #dcca87;
+  color: #0c0b08;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.about-us-img {
+  transform: rotate(90deg);
+  width: 703px;
+  height: 84px;
+}
+
+.about-us-block-img {
+  width: 703px;
+  height: 84px;
+}
+
+.our-histori {
+  max-width: 523px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.our-histori-h2 {
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.our-histori-p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  letter-spacing: 1px;
+  padding: 32px 0 32px 0;
+}
+
+.our-histori-button {
+  width: 141px;
+  height: 44px;
+  border: none;
+  background-color: #dcca87;
+  color: #0c0b08;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.our-histori > .block-img {
+  padding-top: 8px;
+}
+
+/* reservation block */
+
+.reservations-block {
+  background-color: #0c0b08;
+}
+
+.reservations {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  border: #dcca8733 1px solid;
+  padding: 48px 32px 48px 32px;
+  margin: 157px 0 152px 0;
+}
+
+.reservations-block > .container {
+  max-width: 1364px;
+}
+
+.reservations-text1 {
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.reservations-text2 {
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #dcca87;
+}
+
+.reservations-text-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 64px 0;
+  align-items: center;
+}
+
+.reservations-text-block > .block-img {
+  margin: 9px 0 8px 0;
+}
+
+.selects {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 64px;
+}
+
+.select {
+  background-color: #0c0b08;
+  border: #f5efdb 1px solid;
+  color: #aaaaaa;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  width: 412px;
+  height: 60px;
+  padding: 16px;
+  letter-spacing: 2px;
+
+  appearance: none;
+  background: url("/images/rel.png");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.reservation-button {
+  width: 133px;
+  height: 44px;
+  border: none;
+  background-color: #dcca87;
+  color: #0c0b08;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 1px;
+  cursor: pointer;
 }

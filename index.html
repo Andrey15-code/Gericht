@@ -42,8 +42,10 @@
         <div class="container">
           <div class="hero-box">
             <div class="hero-box-hashtag">
-              <p class="hashtag">#Bar</p>
-              <p class="hashtag">#Gericht</p>
+              <div class="hashtag-box">
+                <p class="hashtag">#Gericht</p>
+                <p class="hashtag">#Bar</p>
+              </div>
             </div>
             <div class="main-hero-block1">
               <div class="main-hero-block">
@@ -74,9 +76,9 @@
           </div>
         </div>
       </section>
-      <section class="gericht-main-section2">
+      <section class="about-us-section2">
         <div class="container">
-          <div class="gericht-main-section2-about">
+          <div class="about-us-container">
             <div class="about-us">
               <h2 class="about-us-h2">About Us</h2>
               <img src="./images/spoon.png" alt="" class="block-img" />
@@ -87,21 +89,23 @@
               </p>
               <button class="about-us-button">Know More</button>
             </div>
-          </div>
-          <img src="./images/ground12.png" alt="" class="knife" />
-          <div class="out-histori">
-            <h2 class="out-histori-h2">Our History</h2>
-            <img src="./images/spoon.png" alt="" class="block-img" />
-            <p class="out-histori-p">
-              Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-              Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-              odio nec aliquet.
-            </p>
-            <button class="out-histori-button">Know More</button>
+            <div class="about-us-block-img">
+              <img src="./images/knife.png" alt="" class="about-us-img" />
+            </div>
+            <div class="our-histori">
+              <h2 class="our-histori-h2">Our History</h2>
+              <img src="./images/spoon.png" alt="" class="block-img" />
+              <p class="our-histori-p">
+                Adipiscing tempus ullamcorper lobortis odio tellus arcu
+                volutpat. Risus placerat morbi volutpat habitasse interdum mi
+                aliquam In sed odio nec aliquet.
+              </p>
+              <button class="our-histori-button">Know More</button>
+            </div>
           </div>
         </div>
       </section>
-      <section class="gericht-main-section3">
+      <section class="reservations-block">
         <div class="container">
           <div class="reservations">
             <div class="reservations-text-block">
@@ -109,24 +113,31 @@
               <img src="./images/spoon.png" alt="" class="block-img" />
               <h2 class="reservations-text2">Book A Table</h2>
             </div>
+            <form class="selects">
+              <select name="reservation-select" class="select">
+                <option value="1 person" class="select-item">1 person</option>
+                <option value="2 person" class="select-item">2 person</option>
+                <option value="3 person" class="select-item">3 person</option>
+              </select>
+              <select name="reservation-date" class="select">
+                <option value="12/05/2021" class="select-item">
+                  12/05/2021
+                </option>
+                <option value="13/05/2021" class="select-item">
+                  13/05/2021
+                </option>
+                <option value="14/05/2021" class="select-item">
+                  14/05/2021
+                </option>
+              </select>
+              <select name="reservation-time" class="select">
+                <option value="11:00 AM" class="select-item">11:00 AM</option>
+                <option value="12:00 AM" class="select-item">12:00 AM</option>
+                <option value="1:00 PM" class="select-item">1:00 pM</option>
+              </select>
+            </form>
+            <button class="reservation-button">Book Now</button>
           </div>
-          <form class="selects">
-            <select name="reservation-select" class="select">
-              <option value="1 person" class="select-item">1 person</option>
-              <option value="2 person" class="select-item">2 person</option>
-              <option value="3 person" class="select-item">3 person</option>
-            </select>
-            <select name="reservation-date" class="select">
-              <option value="12/05/2021" class="select-item">12/05/2021</option>
-              <option value="13/05/2021" class="select-item">13/05/2021</option>
-              <option value="14/05/2021" class="select-item">14/05/2021</option>
-            </select>
-            <select name="reservation-time" class="select">
-              <option value="11:00 AM" class="select-item">11:00 AM</option>
-              <option value="12:00 AM" class="select-item">12:00 AM</option>
-              <option value="1:00 PM" class="select-item">1:00 pM</option>
-            </select>
-          </form>
         </div>
       </section>
       <section class="gericht-main-section4">
