@@ -514,7 +514,7 @@ body {
 /* menu block */
 
 .menu-block-section4 > .menu-container::after {
-  content: url("/images/group85.png");
+  content: url("/group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -1019,16 +1019,16 @@ body {
 .our-laurels-img {
   width: 483px;
   height: 691px;
+  position: relative;
 }
 
 .our-laurels-img::after {
-  content: url("/images/g.png");
+  content: url("./images/g.png");
   width: 360px;
   height: 379px;
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 2;
 }
 
 /* blogs block */
@@ -1248,8 +1248,8 @@ body {
   margin: 0 auto;
 }
 
-.gallery {
-  display: flex;
+.gallery, .gallery-fots {
+  width: 100%;
 }
 
 /* footer block */
