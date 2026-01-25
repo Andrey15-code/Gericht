@@ -5,15 +5,17 @@
 }
 
 body::after {
-  content: "";
-  background-image: url("/images/wave-element.svg");
+    content: "";
+    background-image: url("/images/wave-element.png");
   position: absolute;
+  top: 1000px;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 10984px;
   background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
-
-
 
 /* header to gericht */
 
@@ -116,10 +118,6 @@ body {
 /* main to gericht */
 
 /* hero block */
-
-.hero {
-  background-color: #0c0b08;
-}
 
 .hero-box {
   display: flex;
@@ -415,9 +413,7 @@ body {
 
 /* reservation block */
 
-.reservations-block {
-  background-color: #0c0b08;
-}
+
 
 .reservations-block > .container::before {
   content: url("/images/group85.png");
@@ -440,6 +436,7 @@ body {
   border: #dcca8733 1px solid;
   padding: 48px 32px 48px 32px;
   margin: 157px 0 152px 0;
+  background-color: #0c0b08;
 }
 
 .reservations-block > .container {
@@ -517,9 +514,19 @@ body {
 
 /* menu block */
 
+.menu-block-section4 > .menu-container::after {
+  content: url("/images/group85.png");
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  left: 210px;
+  top: 0px;
+}
+
 .menu-block-section4 {
   background-color: #0c0b08;
   display: flex;
+  position: relative;
 
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.6), rgba(12, 11, 8, 0.6)),
@@ -557,10 +564,6 @@ body {
 }
 
 /* menublock 2 */
-
-.menu-block-section5 {
-  background-color: #0c0b08;
-}
 
 .menu-block-section5 > .container {
   flex-direction: column;
@@ -700,6 +703,9 @@ body {
 
 .what_we-section6 {
   background-color: #0c0b08;
+  background-image:
+    linear-gradient(rgba(12, 11, 8, 0.4), rgba(12, 11, 8, 0.4)),
+    url("/images/background.jpg");
 }
 
 .what_we {
@@ -731,6 +737,7 @@ body {
 
 .what_we-block {
   display: flex;
+
 }
 
 .what_we-text {
@@ -779,11 +786,24 @@ body {
 
 /* testimony block */
 
+.testimony > .container::before {
+  content: url("/images/group85.png");
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  right: 340px;
+  top: -45px;
+}
+
+.testimony {
+  position: relative;
+}
+
 .testimony-block {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin: 152px auto 0 auto;
 }
 
 .testimony-text1 {
@@ -804,10 +824,6 @@ body {
   text-transform: capitalize;
   letter-spacing: 2px;
   color: #dcca87;
-}
-
-.testimony {
-  background-color: #0c0b08;
 }
 
 .testimony-block-section {
@@ -888,6 +904,16 @@ body {
     url("/images/jason-leung.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.play-block > .container::after {
+  content: url("/images/group85.png");
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  left: 210px;
+  top: 160px;
 }
 
 .video {
@@ -919,6 +945,7 @@ body {
 .our-laurels {
   display: flex;
   margin: 128px 0 128px 0;
+  position: relative;
 }
 
 .our-laurels-block-h5 {
@@ -1002,13 +1029,10 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 2;
 }
 
 /* blogs block */
-
-.blogs-section10 {
-  background-color: #0c0b08;
-}
 
 .blogs-block {
   display: flex;
@@ -1138,14 +1162,6 @@ body {
 
 /* galerry block */
 
-.gallery-block {
-  background-color: #0c0b08;
-  background-image:
-    linear-gradient(rgba(12, 11, 8, 0.7), rgba(12, 11, 8, 0.7)),
-    url("/images/background.jpg");
-  background-size: cover;
-}
-
 .gallery-fots-item {
   width: 301px;
   height: 447px;
@@ -1206,8 +1222,17 @@ body {
 
 /* footer block */
 
-footer {
-  background-color: #0c0b08;
+.gericht-footer > .container::after {
+  content: url("/images/group85.png");
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  left: 70px;
+  top: -55px;
+}
+
+.gericht-footer {
+  position: relative;
 }
 
 .footer-block {
