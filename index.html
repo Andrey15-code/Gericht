@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/remote.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Gericht</title>
   </head>
   <body>
@@ -519,53 +523,115 @@
         </div>
       </section>
       <section class="gallery-block">
-        <div class="container">
-          <div class="gallery">
-            <div class="gallery-text">
-              <h2 class="gallery-text1">Instagram</h2>
-              <img src="./images/spoon.png" alt="" class="block-img" />
-              <h2 class="gallery-text2">Photo Gallery</h2>
-              <p class="gallery-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
-              </p>
-              <button class="gallery-button">View More</button>
-            </div>
-            <div class="gallery-fots">
-              <div class="gallery-overlay">
-                <img
-                  src="./images/ground13.jpg"
-                  alt=""
-                  class="gallery-fots-item"
-                />
-              </div>
-              <div class="gallery-overlay">
-                <img
-                  src="./images/ground19.jpg"
-                  alt=""
-                  class="gallery-fots-item"
-                />
-              </div>
-              <div class="gallery-overlay">
-                <img
-                  src="./images/ground17.jpg"
-                  alt=""
-                  class="gallery-fots-item"
-                />
-              </div>
-              <div class="gallery-overlay">
-                <img
-                  src="./images/ground9.jpg"
-                  alt=""
-                  class="gallery-fots-item"
-                />
-              </div>
-              <div class="gallery-overlay">
-                <img
-                  src="./images/groundp.jpg"
-                  alt=""
-                  class="gallery-fots-item"
-                />
+
+        <div class="gallery ">
+          <div class="gallery-fots">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="gallery-text">
+                    <h2 class="gallery-text1">Instagram</h2>
+                    <img src="./images/spoon.png" alt="" class="block-img" />
+                    <h2 class="gallery-text2">Photo Gallery</h2>
+                    <p class="gallery-p">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Volutpat mattis ipsum turpis elit elit scelerisque egestas
+                      mu.
+                    </p>
+                    <button class="gallery-button">View More</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground13.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground19.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground17.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground9.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/groundp.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground13.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground19.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground17.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/ground9.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallery-overlay">
+                    <img
+                      src="./images/groundp.jpg"
+                      alt=""
+                      class="gallery-fots-item"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -648,5 +714,17 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

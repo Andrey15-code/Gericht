@@ -5,8 +5,8 @@
 }
 
 body::after {
-    content: "";
-    background-image: url("/images/wave-element.png");
+  content: "";
+  background-image: url("/images/wave-element.png");
   position: absolute;
   top: 1000px;
   left: 0;
@@ -413,8 +413,6 @@ body {
 
 /* reservation block */
 
-
-
 .reservations-block > .container::before {
   content: url("/images/group85.png");
   width: 146px;
@@ -737,7 +735,6 @@ body {
 
 .what_we-block {
   display: flex;
-
 }
 
 .what_we-text {
@@ -1162,6 +1159,39 @@ body {
 
 /* galerry block */
 
+.gallery-block {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+
+    .swiper-slide {
+      width: 300px;
+    }
+
+    .swiper-slide:first-child {
+      width: 500px;
+    }
+
 .gallery-fots-item {
   width: 301px;
   height: 447px;
@@ -1430,7 +1460,7 @@ body {
   text-align: center;
   flex-wrap: wrap;
   max-width: 438px;
-  margin: 0 228px 0 126px ;
+  margin: 0 228px 0 126px;
 }
 
 .footer-block2-center > .block-img {
