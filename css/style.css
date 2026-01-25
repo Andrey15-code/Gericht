@@ -1022,13 +1022,13 @@ body {
   position: relative;
 }
 
-.our-laurels-img::after {
-  content: url("./images/g.png");
+.our-laurels::after {
+  content: url("/images/g.png");
   width: 360px;
   height: 379px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  right: 200px;
 }
 
 /* blogs block */
@@ -1191,8 +1191,13 @@ body {
     }
 
     .swiper-slide:first-child {
-      width: 500px;
+      width: 50%;
     }
+
+.swiper-slide:first-child .gallery-text{
+  width: 491px;
+  margin-left: auto;
+}
 
 .gallery-fots-item {
   width: 301px;
