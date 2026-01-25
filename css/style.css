@@ -2,6 +2,7 @@
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
+  position: relative;
 }
 
 body::after {
@@ -517,7 +518,7 @@ body {
   width: 146px;
   height: 146px;
   position: absolute;
-  left: 210px;
+  left: -15px;
   top: 0px;
 }
 
@@ -538,6 +539,7 @@ body {
   width: 1630px;
   display: flex;
   margin: 0 auto;
+  position: relative;
 }
 
 .menu {
@@ -788,7 +790,7 @@ body {
   width: 146px;
   height: 146px;
   position: absolute;
-  right: 340px;
+  right: 0px;
   top: -45px;
 }
 
@@ -909,7 +911,7 @@ body {
   width: 146px;
   height: 146px;
   position: absolute;
-  left: 210px;
+  left: -160px;
   top: 160px;
 }
 
@@ -1257,11 +1259,20 @@ body {
   width: 146px;
   height: 146px;
   position: absolute;
-  left: 70px;
+  left: -180px;
   top: -55px;
 }
 
-.gericht-footer {
+.gericht-footer > .container::before {
+  content: url("/images/back-to-top.png");
+  width: 32px;
+  height: 97px;
+  position: absolute;
+  right: -190px;
+  top: 510px;
+}
+
+.gericht-footer > .container{
   position: relative;
 }
 
@@ -1493,9 +1504,6 @@ body {
   margin: 24px 0 0 0;
 }
 
-footer > .container {
-  max-width: 2088px;
-}
 
 .back-to {
   width: 32px;
