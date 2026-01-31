@@ -7,7 +7,7 @@
 
 body::after {
   content: "";
-  background-image: url("/images/wave-element.png");
+  background-image: url("./images/wave-element.png");
   position: absolute;
   top: 1000px;
   left: 0;
@@ -287,7 +287,7 @@ body {
 
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.7), rgba(12, 11, 8, 0.7)),
-    url("/images/g.png"), url("/images/background.jpg");
+    url("./images/g.png"), url("./images/background.jpg");
   background-repeat:
     no-repeat no-repeat,
     no-repeat;
@@ -415,7 +415,7 @@ body {
 /* reservation block */
 
 .reservations-block > .container::before {
-  content: url("/images/group85.png");
+  content: url("./images/group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -491,7 +491,7 @@ body {
   letter-spacing: 2px;
 
   appearance: none;
-  background: url("/images/rel.png");
+  background: url("./images/rel.png");
   background-size: 12px;
   background-repeat: no-repeat;
   background-position: right 16px center;
@@ -514,7 +514,7 @@ body {
 /* menu block */
 
 .menu-block-section4 > .menu-container::after {
-  content: url("/group85.png");
+  content: url("./group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -529,7 +529,7 @@ body {
 
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.6), rgba(12, 11, 8, 0.6)),
-    url("/images/ground10.jpg");
+    url("./images/ground10.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -705,7 +705,7 @@ body {
   background-color: #0c0b08;
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.4), rgba(12, 11, 8, 0.4)),
-    url("/images/background.jpg");
+    url("./images/background.jpg");
 }
 
 .what_we {
@@ -755,7 +755,7 @@ body {
 }
 
 .what_we-p::before {
-  content: url("/images/“.png");
+  content: url("./images/“.png");
 }
 
 .what_we-text3 {
@@ -786,7 +786,7 @@ body {
 /* testimony block */
 
 .testimony > .container::before {
-  content: url("/images/group85.png");
+  content: url("./images/group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -900,14 +900,14 @@ body {
 .play-block {
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.6), rgba(12, 11, 8, 0.6)),
-    url("/images/jason-leung.png");
+    url("./images/jason-leung.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .play-block > .container::after {
-  content: url("/images/group85.png");
+  content: url("./images/group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -927,7 +927,7 @@ body {
   background-color: #0c0b08;
   background-image:
     linear-gradient(rgba(12, 11, 8, 0.7), rgba(12, 11, 8, 0.7)),
-    url("/images/background.jpg");
+    url("./images/background.jpg");
   background-size: cover;
 }
 
@@ -1023,7 +1023,7 @@ body {
 }
 
 .our-laurels::after {
-  content: url("/images/g.png");
+  content: url("./images/g.png");
   width: 360px;
   height: 379px;
   position: absolute;
@@ -1276,7 +1276,7 @@ body {
 /* footer block */
 
 .gericht-footer > .container::after {
-  content: url("/images/group85.png");
+  content: url("./images/group85.png");
   width: 146px;
   height: 146px;
   position: absolute;
@@ -1285,7 +1285,7 @@ body {
 }
 
 .gericht-footer > .container::before {
-  content: url("/images/back-to-top.png");
+  content: url("./images/back-to-top.png");
   width: 32px;
   height: 97px;
   position: absolute;
